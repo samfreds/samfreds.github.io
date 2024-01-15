@@ -1,0 +1,179 @@
+:root {
+  overflow: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100%;
+  cursor: url("https://cdn.glitch.global/32327c96-f60c-4a1a-b57a-f46ef7e4621b/smallbeer.png?v=1705357726441"),
+    auto;
+}
+
+html {
+  height: 100%;
+}
+.logo {
+  padding-top: 12%;
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  pointer-events: none;
+}
+
+.flyer img {
+  position: relative;
+  object-fit: contain;
+  border: 1px solid black;
+  width: 120px;
+  height: 120px;
+}
+
+.poster1 {
+  position: absolute;
+  bottom: 10%;
+  left: 25%;
+}
+.poster2 {
+  position: absolute;
+  top: 30%;
+  left: 70%;
+}
+.poster3 {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+}
+.poster4 {
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+}
+.poster5 {
+  position: absolute;
+  right: 30%;
+  bottom: 15%;
+}
+.poster6 {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+.poster7 {
+  position: absolute;
+  right: 10%;
+  top: 20%;
+}
+.poster8 {
+  position: absolute;
+  right: 50%;
+  bottom: 15%;
+}
+.poster9 {
+  position: absolute;
+  right: 50%;
+  top: 15%;
+}
+.poster10 {
+  position: absolute;
+  left: 20%;
+  bottom: 40%;
+}
+.poster11 {
+  position: absolute;
+  right: 30%;
+  top: 10%;
+}
+.poster12 {
+  position: absolute;
+  left: 25%;
+  top: 10%;
+}
+.poster13 {
+  position: absolute;
+  right: 9%;
+  top: 45%;
+}
+
+/** LIGHTBOX MARKUP **/
+
+.lightbox {
+  /* Default to hidden */
+  display: none;
+
+  /* Overlay entire screen */
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* A bit of padding around image */
+  padding: 1em;
+
+  /* Translucent background */
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* Unhide the lightbox when it's the target */
+.lightbox:target {
+  display: block;
+}
+
+.lightbox span {
+  /* Full width and height */
+  display: block;
+  width: 100%;
+  height: 100%;
+
+  /* Size and position background image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: #bbbbbb;
+}
+
+/* NAVIGATION */
+
+.navigation {
+  display: block;
+  position: fixed;
+  top: 7%;
+  border: 1px solid;
+  text-decoration: none;
+  padding: 8px;
+}
+
+.navigation_left {
+  left: 10%;
+}
+
+.navigation_right {
+  right: 10%;
+}
+
+/* ABOUT */
+
+.about-text{
+  font-family: serif;
+  color: black;
+  font-size: 18px;
+  font-weight: normal;
+  padding: 150px;
+}
+
+.submit-text{
+  font-family: serif;
+  color: black;
+  font-size: 18px;
+  font-weight: normal;
+  padding-top: 200px;
+  padding-left: 450px;
+}
