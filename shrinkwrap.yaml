@@ -1,0 +1,12 @@
+dependencies:
+  ef-infinite-canvas: 0.6.2
+packages:
+  /ef-infinite-canvas/0.6.2:
+    dev: false
+    resolution:
+      integrity: sha512-RD3+6GcGS647Ll4cnwTToC4lhkgvljBZG7hFVASpiy683liIPFnaFWLxxiSnkEVusO4GBLYjm0fMN7M0LMyeuQ==
+registry: 'https://registry.npmjs.org/'
+shrinkwrapMinorVersion: 9
+shrinkwrapVersion: 3
+specifiers:
+  ef-infinite-canvas: ^0.6.2
