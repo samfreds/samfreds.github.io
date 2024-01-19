@@ -18,7 +18,7 @@ html {
 }
 .logo {
   padding-top: 12%;
-  position: absolute;
+  position: fixed;
   justify-content: center;
   text-align: center;
   pointer-events: none;
@@ -218,34 +218,33 @@ a.submit-text hover {
   pointer-events: none;
 }
 .gif1 {
-  position: absolute;
+  position: fixed;
   left: 10%;
   bottom: 20%;
 }
 .gif2 {
-  position: absolute;
+  position: fixed;
   right: 30%;
   bottom: 10%;
 }
 .gif3 {
-  position: absolute;
+  position: fixed;
   left: 30%;
   top: 6%;
 }
 .gif4 {
-  position: absolute;
+  position: fixed;
   right: 10%;
   top: 50%;
 }
 .gif6 {
-  position: absolute;
+  position: fixed;
   right: 35%;
   top: 50%;
 }
 
 /* SUBMIT GIFS */
-.gif5 {
-  display: block;
-  width: 10%;
-  margin: auto;
+a.gif5 {
+  position: fixed;
+  right: 50%;
 }
