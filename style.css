@@ -58,12 +58,12 @@ html {
 }
 .poster4 {
   position: absolute;
-  right: 10%;
+  right: 5%;
   bottom: 10%;
 }
 .poster5 {
   position: absolute;
-  right: 30%;
+  right: 33%;
   bottom: 15%;
 }
 .poster6 {
@@ -105,6 +105,11 @@ html {
   position: absolute;
   right: 9%;
   top: 45%;
+}
+.poster14 {
+  position: absolute;
+  right: 20%;
+  bottom: 5%;
 }
 
 /* LIGHTBOX MARKUP */
